@@ -99,7 +99,7 @@ header {
 
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
   margin-right: 5pt;
 }
 
@@ -110,7 +110,6 @@ header {
   opacity: 1;
   transition: 0.5s ease;
 }
-
 
 .container:hover .image {
   display: block;
