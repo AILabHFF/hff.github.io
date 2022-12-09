@@ -100,23 +100,24 @@ header {
 .container {
   position: relative;
   width: 50%;
+  margin-right: 5pt;
 }
 
-.image {
+.container .image {
   display: block;
-  width: 200px;
+  width: 100%;
   height: auto;
   opacity: 1;
   transition: 0.5s ease;
 }
 
-.image:hover {
+
+.container:hover .image {
   display: block;
-  width: 200px;
+  width: 100%;
   height: auto;
   opacity: 0.2;
   transition: 0.5s ease;
-  background-color: #050b0c;
   border: 0.1px rgb(255, 255, 255) solid;
 }
 
